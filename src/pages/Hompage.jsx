@@ -1,10 +1,13 @@
 import PageNav from "../Components/PageNav";
+import Texteffect from "../Components/Texteffect";
 
 function Hompage() {
   return (
-    <div>
-      <PageNav />
-      <h1>Adventurer&apos;s Handbook</h1>
+    <div className="h-screen w-full overflow-hidden">
+      <div className="flex justify-center">
+        <PageNav />
+      </div>
+      <Texteffect />
     </div>
   );
 }

@@ -1,0 +1,29 @@
+.scroller {
+  /* border: 1px solid black; */
+  border-radius: 25px;
+  max-width: 603px;
+  overflow: hidden;
+}
+
+.innerscroller {
+  display: flex;
+  gap: 1em;
+  width: max-content;
+  outline: red 1px;
+  animation: scroll 20s linear infinite;
+}
+.reverse {
+  animation-direction: reverse;
+  animation-duration: 20s;
+}
+
+.innerscroller img {
+  width: 200px;
+  height: 290px;
+  border-radius: 25px;
+}
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - 0.5em));
+  }
+}

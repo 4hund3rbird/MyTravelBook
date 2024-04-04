@@ -8,7 +8,6 @@ function SignupForm() {
     <div className="p-6">
       <div className="flex">
         <input className={tags} placeholder="Firstname" type="text"></input>
-
         <input className={tags} placeholder="Lastname" type="text"></input>
       </div>
       <div className="flex justify-center">
@@ -23,7 +22,6 @@ function SignupForm() {
           placeholder="Set Password"
           type="password"
         ></input>
-
         <input
           className={tags}
           placeholder="Re-enter Password"

@@ -1,5 +1,4 @@
 import PageNav from "../Components/PageNav";
-import Texteffect from "../Components/Texteffect";
 const button_design =
   "border-2 h-20  px-4 py-2 box-shadow-lg shadow-purple-500 text-2xl bg-purple-500 border-purple-500 rounded-xl ease-in-out text-white font-bold mx-2 hover:-translate-y-2 hover:bg-transparent hover:bg-white hover:bg-opacity-40 transition-all duration-300 hover:text-purple-700 ";
 
